@@ -4,7 +4,7 @@
 
 - [x] Toggle.js
 - [x] Modal.js
-- [ ] Tab.js
+- [x] Tab.js
 - [ ] Tag.js
 - [ ] AutoComplete.js
 - [ ] ClickToEdit.js
@@ -54,3 +54,24 @@
 - modalBtn 버튼을 클릭하면, modal값이 비활성 -> 활성 상태로 변경되어 모달창이 업로드되며, 모달창을 제외한
   배경색상은 어둡게 변합니다.
 - 모달창 상단의 close 아이콘을 누르면 모달창이 닫히며, 모달창 뒷 부분(배경)을 클릭해도 모달창은 비활성 상태로 돌아갑니다.
+
+## Tab.js
+
+1. 구현한 방법과 이유에 대한 간략한 내용
+
+- 리액트 Hooks인 useState를 활용하여, toggleTab 함수 실행 시 setToggleNum에 index값을 넣어 toggleNum의 값을 변화시킵니다.
+- 이후, 버튼의 className마다 삼항 조건 연산자를 적용하여 각 toggleNum에 해당하는 값을 가지는 경우 일치하는 className
+  스타일링을 적용시킵니다.
+- tab하단의 content div요소에도 똑같은 className별 삼항 조건 연산자를 적용하여 해당하는 값을 가지는 p요소 내용을 보여주도록
+  설정했습니다.
+
+2. 구현하면서 어려웠던 점과 해결 방법 (Error Handling Log)
+
+- tab별 content의 방향이나, App.js에 렌더링될 때 보이는 tab container의 크기를 조정하는 부분이 조금 번거로웠고,
+  tab이 클릭될 때마다 색상 변경이 이루어지거나 content index별로 내용이 바뀌는 부분을 구현하는 과정에서는 useState Hooks와
+  삼항연산자로 해결했습니다.
+
+3. 자세한 실행 방법
+
+- 각 tab 버튼을 클릭하면, 해당 tab의 toggleNum index값에 맞는 tab menu 번호가 표시됩니다.
+- tab버튼이 클릭될 때마다 toggleNum을 바꾸는 toggleTab함수가 실행되며, tab 버튼의 색상 또한 함께 변경됩니다.
