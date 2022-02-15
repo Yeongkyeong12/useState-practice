@@ -1,5 +1,3 @@
-//README.md
-
 # 📌Wanted_preOnboarding 과제
 
 ### 구현한 예시 목록
