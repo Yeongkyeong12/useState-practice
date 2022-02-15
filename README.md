@@ -1,6 +1,6 @@
 # 📌Wanted_preOnboarding 과제
 
-### 구현한 예시 목록
+### :pencil2:구현한 예시 목록
 
 - [x] Toggle.js
 - [ ] Modal.js
@@ -9,7 +9,7 @@
 - [ ] AutoComplete.js
 - [ ] ClickToEdit.js
 
-### 예시 별 README 필수 포함 내용
+### :pencil2:예시 별 README 필수 포함 내용
 
 - 구현한 방법과 이유에 대한 간략한 내용
 - 구현하면서 어려웠던 점과 해결 방법 (Error Handling Log)
