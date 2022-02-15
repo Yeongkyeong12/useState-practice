@@ -1,0 +1,29 @@
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.modal-content {
+  position: absolute;
+  min-width: 320px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  color: #7d2efd;
+  padding: 25px 28px;
+  box-sizing: border-box;
+  box-shadow: 4px 8px 24px rgba(173, 173, 173, 0.12);
+  border-radius: 12px;
+}
+
+.overlay {
+  background: rgba(49, 48, 49, 0.7);
+}

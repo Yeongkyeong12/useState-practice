@@ -1,6 +1,8 @@
-import "./App.css";
 import Toggle from "./component/Toggle";
 import styled from "styled-components";
+// import React, { useState } from "react";
+import "./App.css";
+import Modal from "./component/Modal";
 
 function App() {
   return (
@@ -12,11 +14,11 @@ function App() {
       </Wrapper>
       <Wrapper>
         <h3>2. Modal</h3>
-        <Toggle />
+        <Modal />
       </Wrapper>
       <Wrapper>
         <h3>3. Tab</h3>
-        <Toggle />
+        {/* <Toggle /> */}
       </Wrapper>
     </div>
   );
