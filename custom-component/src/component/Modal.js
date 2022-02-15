@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./Modal.css";
 import CloseIcon from "@mui/icons-material/Close";
 import styled from "styled-components";
+import "./Modal.css";
 
 function Modal() {
   const [modal, setModal] = useState(false);
@@ -15,7 +15,7 @@ function Modal() {
 
       {modal && (
         <div className="modal">
-          <div className="overlay" onClick={toggleModal}></div>
+          <div className="background" onClick={toggleModal}></div>
           <div className="modal-content">
             <ModalClose onClick={toggleModal}>
               <CloseIcon />
