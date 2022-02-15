@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Tab from "./component/Tab";
 import "./App.css";
 import Modal from "./component/Modal";
+import Tag from "./component/Tag";
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
       <Wrapper>
         <SubTitle>3. Tab</SubTitle>
         <Tab />
+      </Wrapper>
+      <Wrapper>
+        <SubTitle>4. Tag</SubTitle>
+        <Tag />
       </Wrapper>
     </div>
   );
