@@ -1,11 +1,10 @@
-# 📌Wanted_preOnboarding 과제
+# 📌React-useState-practice
 
 ### :white_check_mark:구현한 예시 목록
 
 - [x] Toggle.js
 - [x] Modal.js
 - [x] Tab.js
-- [x] Tag.js
 - [ ] AutoComplete.js
 - [ ] ClickToEdit.js
 
@@ -76,16 +75,4 @@
 - 각 tab 버튼을 클릭하면, 해당 tab의 toggleNum index값에 맞는 tab menu 번호가 표시됩니다.
 - tab버튼이 클릭될 때마다 toggleNum을 바꾸는 toggleTab함수가 실행되며, tab 버튼의 색상 또한 함께 변경됩니다.
 
-## Tag.js
 
-1. 구현한 방법과 이유에 대한 간략한 내용
-
-- 리액트 Hooks인 useState를 활용하여, tags값을 변경해주는 addTag 함수를 만들어 Tag입력값을 추가하도록 했습니다.
-
-2. 구현하면서 어려웠던 점과 해결 방법 (Error Handling Log)
-
-- tag가 입력되는 container 부분 크기 조절 스타일링이나 새로운 tag를 추가하거나 삭제할 때의 방법을 고민했고, filter 함수를 활용해
-해당 부분을 일정 해결했습니다. 
-3. 자세한 실행 방법
-
-- tag 입력창에 값을 입력하면, 해당 입력값이 tag로 떠오르고, close 버튼을 누르면 입력값을 삭제할 수 있습니다.
